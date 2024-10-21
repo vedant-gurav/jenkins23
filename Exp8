@@ -1,0 +1,28 @@
+name pipeline 
+string paramt name-whoami
+              fname
+trigger build remotely auth token-1488
+pipeline script pipeline 
+pipeline (
+agent any
+
+stages (
+
+stage("Author name') {
+
+steps ( echo "This job is executed by ${params.whoami}"
+
+}
+
+stage('Creating File') { steps (
+
+echo "Filename: $(params.filename)"
+
+echo "Creating.... bat "echo 'Hello geeks'> $(params.filename)"
+
+echo "File successfully created.
+
+check pukguins build Authorization token
+url token whoiam-
+http://localhost:8080/buildByToken/buildWithParameters?token=54321&job=<name_of_ur_job> &whoami pranit&filename=test.txt
+console
